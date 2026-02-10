@@ -1,3 +1,14 @@
 #modificado {
     color: red
 }
+
+#imagen1{
+    width: 200px;
+}
+
+
+.resaltado {
+    background-color: rgb(47, 0, 255);
+    color: yellow;
+    padding: 10px;
+}

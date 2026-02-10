@@ -1,32 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>::: Clase de DOM </title>
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>::: Clase de DOM</title>
+  </head>
+  <body>
     <div class="container">
-        <h1 id="title">Soy el titulo del Sitio Web</h1>
-        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, numquam!</p>
-        <p class="paragraph">Soy el párrafo #2</p>
-        <p class="paragraph" >Soy el párrafo #3</p>
+      <h1 id="title">Soy el titulo del Sitio Web</h1>
+      <p class="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+        numquam!
+      </p>
+      <p id="parrafo" class="paragraph">Soy el párrafo #2</p>
+      <p class="paragraph">Soy el párrafo #3</p>
     </div>
 
-<hr>
+    <hr />
 
     <ul id="lista">
-        <li>Elemento 1</li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-        <li>Elemento 4</li>
-        <li>Elemento 5</li>
-
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+      <li>Elemento 5</li>
     </ul>
-    
+    <hr />
 
-    <script src="./js/main.js"></script>
-</body>
+    <div id="miElemento">Esto será eliminado</div>
+    <hr />
+    <h2>Modificar elementos con hijos</h2>
+
+    <section id="section">
+      <p>Soy un parrafo dentro de un section</p>
+      <h4>Soy un h4</h4>
+    </section>
+    <hr />
+    <h3>Imagenes</h3>
+    <img id="imagen1" src="https://picsum.photos/200" alt="imagen aleatoria" />
+
+    <hr />
+    <a id="enlace" href="https://www.google.com/">ir a google</a>
+
+    <hr />
+    <div id="contenedor">
+        <p id="elemento">No me elimines todavia</p>
+      <p id="elementoAEliminar" class="resaltado">Este párrafo será eliminado</p>
+    </div>
+
+    <!-- <script src="./js/main.js"></script> -->
+    <!-- <script src="./js/index.js"></script> -->
+    <script src="./js/app.js"></script>
+  </body>
 </html>

@@ -1,14 +1,18 @@
 #modificado {
-    color: red
+  color: red;
 }
 
-#imagen1{
-    width: 200px;
+#imagen1 {
+  width: 200px;
 }
-
 
 .resaltado {
-    background-color: rgb(47, 0, 255);
-    color: yellow;
-    padding: 10px;
+  background-color: rgb(47, 0, 255);
+  color: yellow;
+  padding: 10px;
+}
+
+#contenedor {
+  background-color: rgb(67, 250, 222);
+  padding: 20px;
 }
